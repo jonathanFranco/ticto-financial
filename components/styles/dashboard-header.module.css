@@ -1,0 +1,31 @@
+.dashboardHeader {
+  @apply border-b bg-primary-500 pt-10 pb-20;
+}
+
+.dashboardHeaderContainer {
+  @apply container mx-auto px-4 py-4 flex items-center justify-between;
+}
+
+.dashboardHeaderLogo {
+  @apply h-7 w-full;
+}
+
+.dashboardHeaderActions {
+  @apply flex items-center gap-2;
+}
+
+.dashboardHeaderButtonNew {
+  @apply flex text-primary-50 bg-primary-300;
+}
+
+.dashboardHeaderButtonLogout {
+  @apply text-red-50 bg-red-500;
+}
+
+.dashboardHeaderButtonIcon {
+  @apply h-4 w-4;
+}
+
+.dashboardHeaderButtonText {
+  @apply hidden sm:flex;
+}

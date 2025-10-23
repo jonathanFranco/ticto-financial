@@ -1,0 +1,26 @@
+.custom-toast {
+  background: #fafafa;
+  color: #222;
+  border: 1px solid #e5e7eb;
+  box-shadow: none;
+  backdrop-filter: blur(8px);
+  padding: 16px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+.custom-toast.success {
+  @apply text-green-600 bg-green-50;
+}
+.custom-toast.destructive {
+  @apply text-red-600 bg-red-50;
+}
+.custom-toast.warning {
+  @apply text-yellow-500 bg-yellow-50;
+}
+.custom-toast.info {
+  @apply text-blue-600 bg-blue-50;
+}
+.custom-toast.loading {
+  @apply text-gray-600 bg-gray-50;
+}
